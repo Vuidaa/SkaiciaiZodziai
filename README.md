@@ -5,6 +5,8 @@ Klasė paverčianti skaičius i Lietuviškus žodžius.
 
 
 ```
+use SkaiciaiZodziai\Converter;
+
 $Object = new Converter;
 
 echo $Object->spell(523);
